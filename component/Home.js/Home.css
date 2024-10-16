@@ -1,0 +1,259 @@
+.numbers{
+    background-color: #a82d49;
+    padding: 25px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.numbers .row{
+    margin: 10px 0px;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #fff;
+    font-family: 'Tajawal';
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Tajawal';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* the pride section */
+.pride , .make{
+    background-color: transparent;
+    padding: 50px 0px ;
+    max-width: 80%;
+    height:auto;
+    overflow: hidden;
+    margin-top: 50px;
+    align-self: center;
+   
+}
+.pride img ,.make img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2 , .make h2 ,.paralesx h2  {
+    font-size: 35px;
+    font-weight:bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #6d1227;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+}
+.pride p , .make p , .paralesx p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Tajawal';
+    margin-top: 15px;
+}
+.pride button , .make button ,.blogs button{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    box-sizing: border-box;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    transition: 2s ease;
+}
+.pride button a , .make button a , .blogs button{
+    display: block;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+.pride button:hover a , .make button:hover  , .blogs button:hover{
+    color: #6d1227;
+    
+}
+.pride button:hover , .make button:hover ,.blogs button:hover{
+    background-color: #fff;
+
+}
+/*the make section*/
+
+.make ul{
+    padding: 0px;
+}
+.make ul li{
+    list-style-type: square;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #070000;
+    margin-top: 10px;
+}
+/*pralex */
+.paralesx{
+    background: url('./../../assets/1.jpg' ) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+
+}
+.paralesx .row{
+    margin: 50px 0px;
+}
+.paralesx h2{
+    width:100%;
+
+}
+.paralesx a{
+    color: #6d1227;
+    font-size: 20px;
+    margin: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none !important;
+}
+/*blogs section */
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs.row:first-child{
+    text-align: center;
+    margin: 25px 0px;
+}
+.blogs h2 {
+    font-size: 45px;
+    font-weight:bold;
+    width: 100%;
+    margin: 10px 0px;
+    color: #6d1227;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+    text-align: center;
+}
+.blogs p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: 'Tajawal';
+    margin-top: 15px;
+}
+.blogs .box{
+border: 1px solid #f6f6f6;
+max-width: 100%;
+height: auto;
+overflow: hidden;
+box-sizing: border-box;
+margin-top: 10px;
+border-radius: 5px;
+}
+.blogs .box img{
+max-width: 100%;
+}
+.blogs .box h5{
+    font-weight: bold;
+    color: #6d1227;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 15px 0px;
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.blogs .box h6{
+    color: #6d1227;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.blogs button , .white button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: #6d1227;
+    border: 1px solid #6d1227;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    transition: .3 ease-in-out;
+}
+.blogs button a , .white button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+.blogs button:hover , .white button:hover{
+    background-color: transparent;
+}
+.blogs button:hover a, .white button:hover a{
+    color: #6d1227;
+}
+.slider{
+    background-color: #a82d49;
+    border: #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.slider .carousel{
+    background-color: #fff;
+    margin: 40px 0px;
+}
+.slider img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+    margin-bottom: 180px;
+}
+
+.slider .carousel-caption p{
+    color: #070000;
+    font-size: 17px;
+    line-height: 30px;
+}
+.slider .carousel-caption spam{
+    color: #6d1227;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.slider h2{
+    color: #fff;
+    font-weight: bold;
+    text-align: center ;
+}
+.white{
+    text-align: center;
+    padding: 80px 0px;
+}
+.white h2{
+    color: #6d1227;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.white input{
+    width: 30%;
+    height: 30%;
+    font-weight: bold;
+    align-items: center;
+}
